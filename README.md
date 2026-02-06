@@ -30,7 +30,6 @@ El objetivo del proyecto es aplicar los conocimientos adquiridos en **diseño we
 
 - 🧱 **HTML5**
 - 🎨 **CSS3**
-- ⚙️ **JavaScript**
 - 📐 Diseño responsive
 - 💡 Inspiración en e-commerce reales de moda
 
