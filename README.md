@@ -46,17 +46,10 @@ Aquí puedes ver algunas vistas de la página web 👀✨
 ![Home](assets/home.png)
 
 ### 👕 Catálogo de productos
-![Productos](assets/products.png)
+![Catalogo](assets/catalog.png)
 
-### 🛒 Detalle de producto
-![Detalle](assets/detail.png)
+### 🛒 Rebajas
+![Detalle](assets/sales.png)
 
-*(Puedes añadir o quitar capturas según lo que quieras enseñar)*
-
----
-
-## 🚀 Cómo usar el proyecto
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/wereable.git
+### 👕 Catálogo ropa de segunda mano
+![Catalogo](assets/secondhand.png)
