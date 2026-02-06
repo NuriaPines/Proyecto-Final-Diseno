@@ -35,13 +35,6 @@ El objetivo del proyecto es aplicar los conocimientos adquiridos en **diseño we
 - 💡 Inspiración en e-commerce reales de moda
 
 ---
-
-## 📸 Capturas de pantalla
-
-Aquí puedes ver algunas vistas de la página web 👀✨  
-
-> 📌 **Nota:** Guarda las imágenes en una carpeta llamada `assets` o `screenshots` dentro del proyecto y enlázalas así:
-
 ### 🏠 Página principal
 ![Home](assets/home.png)
 
