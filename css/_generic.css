@@ -8,3 +8,7 @@ body, h5{
 .price{
     font-weight: 500;
 }
+
+svg{
+    width: 40px;
+}
