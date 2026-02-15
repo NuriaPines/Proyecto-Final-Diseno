@@ -9,18 +9,25 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/_generic.css">
-        <link rel="stylesheet" href="css/_card.css">
+    <link rel="stylesheet" href="css/_generic.css" />
+    <link rel="stylesheet" href="css/_card.css" />
 
     <title>SEGUNDA MANO</title>
   </head>
   <body class="">
+    <script src="js/carrito.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"
-          ><span class="display-1 fs-2">WEREABLE
-            <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.5 253.5">
+          ><span class="display-1 fs-2"
+            >WEREABLE
+            <svg
+              id="Layer_3"
+              data-name="Layer 3"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 253.5 253.5"
+            >
               <defs>
                 <style>
                   .cls-1 {
@@ -29,9 +36,12 @@
                 </style>
               </defs>
               <title>Logo Wereable</title>
-              <path class="cls-1" d="M289.75,69.5A126.75,126.75,0,1,0,416.5,196.25,126.89,126.89,0,0,0,289.75,69.5Zm0,3A123.77,123.77,0,0,1,411.16,220.21L292,168.6v-9.12a15.69,15.69,0,0,1,8.13-13.62,20.94,20.94,0,0,0-9.9-39.2h-0.3A20.93,20.93,0,0,0,269,127.58s4.14,0,4.14,0a16.79,16.79,0,0,1,17-16.79,16.79,16.79,0,0,1,7.94,31.46,19.83,19.83,0,0,0-10.25,17.23v9.25L168.91,223A123.77,123.77,0,0,1,289.75,72.5Zm0,247.5a124,124,0,0,1-120.14-94.07L290,171l67.45,29.2c-3,8.82-28.36,83.91-28.71,84.15s-33.62-81.87-33.62-81.87-5.12.75-6.25,1.75,3.75,14.63,3.75,14.63l-31,66.38s-28.62-79.62-30.87-82-11.5.63-11.5,0.63l35.25,92.5h7L293.25,226l27.63,70.5h7.75l32.65-94.62,49.26,21.33A124,124,0,0,1,289.75,320Z" transform="translate(-163 -69.5)"/>
-            </svg></span></a
-        >
+              <path
+                class="cls-1"
+                d="M289.75,69.5A126.75,126.75,0,1,0,416.5,196.25,126.89,126.89,0,0,0,289.75,69.5Zm0,3A123.77,123.77,0,0,1,411.16,220.21L292,168.6v-9.12a15.69,15.69,0,0,1,8.13-13.62,20.94,20.94,0,0,0-9.9-39.2h-0.3A20.93,20.93,0,0,0,269,127.58s4.14,0,4.14,0a16.79,16.79,0,0,1,17-16.79,16.79,16.79,0,0,1,7.94,31.46,19.83,19.83,0,0,0-10.25,17.23v9.25L168.91,223A123.77,123.77,0,0,1,289.75,72.5Zm0,247.5a124,124,0,0,1-120.14-94.07L290,171l67.45,29.2c-3,8.82-28.36,83.91-28.71,84.15s-33.62-81.87-33.62-81.87-5.12.75-6.25,1.75,3.75,14.63,3.75,14.63l-31,66.38s-28.62-79.62-30.87-82-11.5.63-11.5,0.63l35.25,92.5h7L293.25,226l27.63,70.5h7.75l32.65-94.62,49.26,21.33A124,124,0,0,1,289.75,320Z"
+                transform="translate(-163 -69.5)"
+              /></svg></span
+        ></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,176 +54,250 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto  d-flex align-items-center">
+          <ul class="navbar-nav ms-auto d-flex align-items-center">
             <li class="nav-item">
-              <a class="nav-link" href="index.html"
-                >Inicio</a
-              >
+              <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="catalog.html">Catálogo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="sales.html"><button class="btn btn-outline-danger">Rebajas</button></a>
+              <a class="nav-link" href="sales.html"
+                ><button class="btn btn-outline-danger">Rebajas</button></a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Segunda Mano</a>
+              <a class="nav-link active" aria-current="page" href="#"
+                >Segunda Mano</a
+              >
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="carrito.html">
-                <svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: 3px;" width="22" height="22" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
-                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+              <a class="nav-link" href="carrito.html">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="margin-bottom: 3px"
+                  width="22"
+                  height="22"
+                  fill="currentColor"
+                  class="bi bi-cart4"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+                  />
                 </svg>
-            </a>
-          </li>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <h1 class="display-4">Zona de segunda mano</h1>
     <h2 class="display-6">Prendas revisadas por especialistas</h2>
-    <hr>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-6 d-flex justify-content-center">
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand1.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                        Pinta labios rojo LUXF
-                        <span class="ms-3 price">5€</span>
-                    </h5>
-                    <p class="card-text fs-6">Pintalabiso rojo LUXF color rojo tono #3465</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand2.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Pantalon Nike Just Do It
-                    <span class="ms-3 price">10€</span>
-                    </h5>
-                    <p class="card-text fs-6">Pantalon negro nike poco usado, tamaño L</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand3.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                        Pantalon vaquero negro
-                    <span class="ms-3 price">9€</span>
-                    </h5>
-                    <p class="card-text fs-6">Pantalon vaquero negro ZARA de la coleccion moda verano del año 2024</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand4.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Mauinilla de afeitar
-                    <span class="ms-3 price">15€</span>
-                    </h5>
-                    <p class="card-text fs-6">Maquinilla de afeitar SCARLETT sin uso, mi padre se murio antes de usarla</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand5.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                        Bolso de cuero
-                    <span class="ms-3 price">12€</span>
-                    </h5>
-                    <p class="card-text fs-6">Bolso de cuerno negro pequeño, perfecto para llevar el movil</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand6.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Gafas Ray-Ban 
-                    <span class="ms-3 price">60€</span>
-                    </h5>
-                    <p class="card-text fs-6">Gafas Ray-Ban a estrenar, negras, tamaño XL</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand7.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Camiseta Brooklyn
-                    <span class="ms-3 price">20€</span>
-                    </h5>
-                    <p class="card-text fs-6">Camiseta del GAP blanca, tamaño s</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand8.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Vestido de medio cuerpo
-                    <span class="ms-3 price">25€</span>
-                    </h5>
-                    <p class="card-text fs-6">Vestido de medio cuerpo color beige</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand9.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Gorro de punto de lana casero
-                    <span class="ms-3 price">18€</span>
-                    </h5>
-                    <p class="card-text fs-6">Gorro de punto de lana, hecho a mano por mi, muy comodo y calentito</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
-        </div>
-        <div class="col d-flex">
-            <div class="card">
-            <img src="img/secondhand/secondhand10.webp" class="card-img-top" alt="Foto de ropa u objetos de segunda mano" title="Foto de ropa y/o objetos de segunda mano">
-                <div class="card-body d-flex flex-column">
-                    <h5 class="card-title d-flex justify-content-between">
-                    Camiseta Betis 1999
-                    <span class="ms-3 price">56€</span>
-                    </h5>
-                    <p class="card-text fs-6">Camiseta del Real Betis Balonpie, de año 1999 cuando ganamos la copa del rey, numero 12 de Chicharito Hernandez</p>
-                    <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
-                </div>
-                
-            </div>
+    <hr />
+    <div
+      class="row row-cols-1 row-cols-md-3 row-cols-lg-6 d-flex justify-content-center"
+    >
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand1.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Pinta labios rojo LUXF
+              <span class="ms-3 price">5€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Pintalabiso rojo LUXF color rojo tono #3465
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
         </div>
       </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand2.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Pantalon Nike Just Do It
+              <span class="ms-3 price">10€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Pantalon negro nike poco usado, tamaño L
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand3.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Pantalon vaquero negro
+              <span class="ms-3 price">9€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Pantalon vaquero negro ZARA de la coleccion moda verano del año
+              2024
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand4.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Mauinilla de afeitar
+              <span class="ms-3 price">15€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Maquinilla de afeitar SCARLETT sin uso, mi padre se murio antes de
+              usarla
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand5.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Bolso de cuero
+              <span class="ms-3 price">12€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Bolso de cuerno negro pequeño, perfecto para llevar el movil
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand6.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Gafas Ray-Ban
+              <span class="ms-3 price">60€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Gafas Ray-Ban a estrenar, negras, tamaño XL
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand7.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Camiseta Brooklyn
+              <span class="ms-3 price">20€</span>
+            </h5>
+            <p class="card-text fs-6">Camiseta del GAP blanca, tamaño s</p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand8.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Vestido de medio cuerpo
+              <span class="ms-3 price">25€</span>
+            </h5>
+            <p class="card-text fs-6">Vestido de medio cuerpo color beige</p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand9.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Gorro de punto de lana casero
+              <span class="ms-3 price">18€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Gorro de punto de lana, hecho a mano por mi, muy comodo y
+              calentito
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col d-flex">
+        <div class="card">
+          <img
+            src="img/secondhand/secondhand10.webp"
+            class="card-img-top"
+            alt="Foto de ropa u objetos de segunda mano"
+            title="Foto de ropa y/o objetos de segunda mano"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title d-flex justify-content-between">
+              Camiseta Betis 1999
+              <span class="ms-3 price">56€</span>
+            </h5>
+            <p class="card-text fs-6">
+              Camiseta del Real Betis Balonpie, de año 1999 cuando ganamos la
+              copa del rey, numero 12 de Chicharito Hernandez
+            </p>
+            <a href="#" class="btn btn-outline-primary mt-auto">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
