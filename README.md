@@ -83,15 +83,15 @@ El proyecto prioriza:
 
 ## 📁 Estructura de carpetas
 📦 Proyecto-Final-Diseno
-┣ 📂 css
-┣ 📂 js
-┣ 📂 img
-┣ 📂 assets
-┣ 📄 index.html
-┣ 📄 catalog.html
-┣ 📄 sales.html
-┣ 📄 secondhand.html
-┗ 📄 carrito.html
+- ┣ 📂 css
+- ┣ 📂 js
+- ┣ 📂 img
+- ┣ 📂 assets
+- ┣ 📄 index.html
+- ┣ 📄 catalog.html
+- ┣ 📄 sales.html
+- ┣ 📄 secondhand.html
+- ┗ 📄 carrito.html
 
 ---
 
