@@ -60,7 +60,7 @@ La web está organizada en diferentes secciones que representan el flujo típico
 - Visualización de productos seleccionados
 
 **Función:** representar el proceso final antes de la compra.
-
+![Página Carrito](assets/cart.png)
 ---
 
 ## 💻 Tecnologías utilizadas
