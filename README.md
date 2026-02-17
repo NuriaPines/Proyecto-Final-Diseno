@@ -96,8 +96,8 @@ El proyecto prioriza:
 ---
 
 ## 👩‍💻 Autores
-Proyecto desarrollado por **Nuria Pinés, Javier Pinel, Marcos Gilson, Marco Martínez** como trabajo final de Diseño Web.
-Este trabajo se tiene que ejecutar desde servidor, **open with live server**.
+- Proyecto desarrollado por **Nuria Pinés, Javier Pinel, Marcos Gilson, Marco Martínez** como trabajo final de Diseño Web.
+- Este trabajo se tiene que ejecutar desde servidor, **open with live server**.
 ---
 
 ✨ *WEREABLE combina diseño visual y funcionalidad para recrear una experiencia real de compra online.*
