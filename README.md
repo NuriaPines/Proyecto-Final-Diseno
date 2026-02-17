@@ -27,7 +27,7 @@ La web está organizada en diferentes secciones que representan el flujo típico
 - Acceso rápido a las categorías
 
 **Función:** introducir al usuario y guiar la navegación.
-
+![Página Principal](assets/home.png)
 ---
 
 ### 👗 Catálogo — `catalog.html`
@@ -36,7 +36,7 @@ La web está organizada en diferentes secciones que representan el flujo típico
 - Visualización clara de prendas
 
 **Función:** permitir explorar productos y simular la experiencia de compra.
-
+![Página Catálogo](assets/calaog.png)
 ---
 
 ### 🔥 Rebajas — `sales.html`
@@ -44,7 +44,7 @@ La web está organizada en diferentes secciones que representan el flujo típico
 - Sección enfocada en promociones
 
 **Función:** destacar ofertas y mejorar la experiencia comercial.
-
+![Página Rebajas](assets/sales.png)
 ---
 
 ### ♻️ Segunda mano — `secondhand.html`
@@ -52,7 +52,7 @@ La web está organizada en diferentes secciones que representan el flujo típico
 - Enfoque sostenible dentro de la tienda
 
 **Función:** añadir variedad y un concepto ecológico al e-commerce.
-
+![Página Segunda Mano](assets/secondhand.png)
 ---
 
 ### 🛒 Carrito — `carrito.html`
